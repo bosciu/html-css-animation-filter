@@ -132,3 +132,50 @@
 
 
 /* Fine primi 5 */
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: filter 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(1) grayscale(0.5);
+}
+
+.ex-8-img {
+    transition: border-radius 2s, filter 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 15px;
+    filter: grayscale(0.7) contrast(1);
+}
+
+.ex-9-img {
+    transition: filter 2s, border-radius 2s, transform 2s;
+}
+
+.ex-9-img:hover {
+    filter: sepia(0.5) grayscale(0.3);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
+.ex-10-icon {
+    animation: 1s rotation infinite linear reverse;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+/* Fine 10 esercizi */
