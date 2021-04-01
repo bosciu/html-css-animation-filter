@@ -184,6 +184,18 @@
     animation: rotation270 2s linear;
 }
 
+@keyframes rotation270 {
+    0% {
+        transfrom: rotate(0deg);
+    }
+    95% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 @keyframes top-transition {
     0% {
         left: 10px;
